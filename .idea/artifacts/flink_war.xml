@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="flink:war">
+    <output-path>$PROJECT_DIR$/flink/target</output-path>
+    <root id="archive" name="flink.war">
+      <element id="artifact" artifact-name="flink:war exploded" />
+    </root>
+  </artifact>
+</component>
