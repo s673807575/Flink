@@ -1,8 +1,16 @@
-#head{
+﻿body{
+    text-align: center;
+
+}
+#head,footer{
     background: #0067C6;
+    text-align: center;
+}
+#head{
+    height:30.4px;
 }
 #myCarousel{
-    margin:0 auto;
+    /*margin:0 auto;*/
     width:100%;
     height:350px;
 }
@@ -20,29 +28,87 @@
     width:100%;
     height:350px;
 }
-#first{
-    float: none;
-    display: inline-block;
-    margin-left: 650px;
+.row{
+    /*margin:0px;*/
 }
 .container{
     width:100%;
+    padding:0px;
 }
 .navbar{
     margin-bottom: 0;
+    /*max-width: 1079.2px;*/
+}
+.row-width{
+    /*width: 1079.2px;*/
 }
 #example-navbar-collapse ul{
     margin-right: 30px;
 }
 #phone img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 30px;
+}
+#phone span{
+    color: white;
+
 }
 #logo{
-    width:280px;
-    height:26px;
-    margin-top:3px;
+    width:250px;
+    height:30px;
+}
+#logs img{
+    width: 40px;
+    height:40px;
+}
+#logs{
+    padding:0px;
+    height:40px;
+}
+footer a,footer{
+    color:white;
+    font-size:small;
+}
+#temp{
+    height:73px;
 }
 
+.logo_remo{
+    background-color: transparent;
+    color: white;
+}
 
+.title{
+    width: 162px;
+    position: relative;
+    top: -317px;
+    margin:0 auto;
+    z-index: 100;
+    background: white;
+    text-align: center;
+}
+.title span{
+    font-size:x-large;;
+}
+.body-content{
+    height:300px;
+    border-top:3px solid #DDD;
+    max-width: 1079.2px;
+}
+.remodal-overlay{
+    background:rgba(0,103,198,0.4);
 
+}
+.height{
+    height:10px;
+}
+#welcome{
+    padding-left: 4.9%;
+    padding-top: 5px;
+}
+#welcome div{
+    overflow: hidden;
+    color: white;
+    white-space: nowrap;
+    width:0%;
+}
